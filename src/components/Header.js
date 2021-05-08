@@ -4,7 +4,10 @@ const Header = (props) =>
 (
   <div className='header'>
     <div className="container">
-      <h1 className="header__title">{props.title}</h1>
+      <div className="header__title">
+        <h1 className="header-h">{props.title}</h1>
+        <p className="header-p">--By Aman</p></div>
+
       {props.subtitle && <h2 className="header__subtitle">{props.subtitle}</h2>}
     </div>
 

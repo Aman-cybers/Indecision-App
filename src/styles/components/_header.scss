@@ -6,8 +6,15 @@
 }
 //block element modifier naming convention
 .header__title {
+  display: flex;
+  justify-content: space-between;
+}
+.header-h {
   font-size: $l-size;
   margin: 0;
+}
+.header-p {
+  color: $off-white;
 }
 
 .header__subtitle {
